@@ -1,0 +1,146 @@
+@import url("../public/assets/css/animate.min.css");
+@import url("../public/assets/css/animation.css");
+@import url("../public/assets/css/bootstrap.css");
+@import url("../public/assets/css/responsive.css");
+@import url("../public/assets/css/shortcodes.css");
+@import url("../public/assets/css/style.css");
+@import url("../public/assets/css/swiper-bundle.min.css");
+
+.new_create_page {
+  padding: 5rem;
+}
+
+/* Fullscreen overlay */
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+}
+
+/* Spinner */
+.loader {
+  border: 8px solid #f3f3f3; /* Light border */
+  border-top: 8px solid #ddf146; /* Blue spinner */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+/* Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* //INPURT SEARCH */
+
+/* From Uiverse.io by vinodjangid07 */
+.input-wrapper {
+  height: 45px;
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: content-box;
+  display: flex;
+  align-items: center;
+  background-color: #292524;
+}
+
+.icon {
+  width: 30px;
+  fill: rgb(255, 255, 255);
+  margin-left: 8px;
+  margin-right: 8px;
+  transition: all 0.3s;
+}
+.input {
+  max-width: 100%;
+  padding-inline: 2rem;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  background-color: #292524;
+  color: white;
+  font-size: 1em;
+}
+.input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #292524 inset;
+  -webkit-text-fill-color: #ffffff;
+}
+.Subscribe-btn {
+  height: 100%;
+  width: 95px;
+  border: none;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  background-color: #e1fe26;
+  font-weight: 500;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.3s;
+  margin-left: 12px;
+}
+.arrow {
+  /* display: none; */
+  position: absolute;
+  margin-right: 150px;
+  transition: all 0.3s;
+}
+.input-wrapper:active .icon {
+  transform: scale(1.3);
+}
+.Subscribe-btn:hover {
+  color: #e1fe26;
+}
+.Subscribe-btn:hover .arrow {
+  margin-right: 0;
+  animation: jello-vertical 0.9s both;
+  transform-origin: right;
+}
+
+@keyframes jello-vertical {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.Subscribe-btn:active {
+  transform: scale(0.9);
+}
+
+.filter-Height {
+  height: 80vh;
+  overflow-y: auto;
+}
