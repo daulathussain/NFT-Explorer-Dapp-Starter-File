@@ -10,11 +10,11 @@ Learn how to build and deploy a powerful Blockchain NFT Explorer from scratch, c
 
 Kindly follow the following Instructions to run the project in your system and install the necessary requirements
 
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/build-and-deploy-a-solana-nft-creator-dapp-with-next.js-phantom-wallet-and-metaplex-or-solana-blockchain-dapp)
+- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/build-and-deploy-a-blockchain-nft-explorer-or-supports-ethereum-binance-polygon-base-and-celo-networks)
 
 #### Setup Video
 
-- [Final Code Setup video](https://youtu.be/jMxvW_SfVBM?si=FRs7WwYdL5-cCx1O)
+- [Final Code Setup video](https://youtu.be/NDZCdno93zE?si=QPmIO7Aoz16kSYp9)
 
 ```
   WATCH: Setup & Demo Of Project
